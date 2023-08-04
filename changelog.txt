@@ -1,0 +1,15 @@
+– v1.0
+Initial release
+
+– v1.1
+hlplut1: replaced trigger_endsection with game_end.
+
+– v1.2
+hlplu5: replaced player medkit with a custom version to prevent gravity settings breaking after being revived.
+
+– v1.3
+hlplu5: removed custom medkit to prevent crashes with dedicated servers. Replaced with something else.
+
+– v2.0
+Maps merged: reduced from 11 to 5.
+Some tweaks and improvements added.
