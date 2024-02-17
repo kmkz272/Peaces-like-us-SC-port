@@ -13,3 +13,28 @@ hlplu5: removed custom medkit to prevent crashes with dedicated servers. Replace
 – v2.0
 Maps merged: reduced from 11 to 5.
 Some tweaks and improvements added.
+
+- v2.1
+replaced trigger_changesky with custom_script.
+replaced trigger_cdauto and target_cdauto entities with ambient_music 
+added basic save/load system. (disabled by default)
+added changelevel sprites. (disabled by default)
+adjusted gravity settings.
+removed unused files.
+pc_balancing enabled.
+fixed weapons models on some human grunts. 
+hlplu_1: fixed initial messages not showing up.
+hlplu_1: fixed music playing incorrectly.
+hlplu_1: fixed garg slowly falling from the floor.
+hlplu_1: fixed bad respawning in elevator happening under some circunstances.
+hlplu_1: fixed visible and sudden sky change on apache/grunts area. 
+hlplu_2: fixed broken spawn.
+hlplu_2: fixed repel grunts no appearing under some circunstanes.
+hlplu_2: added missing dead alien grunt
+hlplu_3: fixed teleport leading to the clock area being activated before time.
+hlplu_3: fixed small ship door closing if blocked causing a softlock.
+hlplu_4: added missing barney and alien slave.
+hlplu_4: fixed telefrag issues in the cage when you are captured. Now weapons are correctly removed.
+hlplu_4: fixed gman intro fade.
+hlplu_4: adjusted nihilant cinematic.
+
