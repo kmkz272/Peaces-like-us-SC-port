@@ -1,20 +1,26 @@
 – v1.0
+23/2/2020
 Initial release
 
 – v1.1
+29/2/2020
 hlplut1: replaced trigger_endsection with game_end.
 
 – v1.2
+4/2/2023
 hlplu5: replaced player medkit with a custom version to prevent gravity settings breaking after being revived.
 
 – v1.3
+26/2/2023
 hlplu5: removed custom medkit to prevent crashes with dedicated servers. Replaced with something else.
 
 – v2.0
+26/3/2023
 Maps merged: reduced from 11 to 5.
 Some tweaks and improvements added.
 
 - v2.1
+17/2/2024
 replaced trigger_changesky with custom_script.
 replaced trigger_cdauto and target_cdauto entities with ambient_music 
 added basic save/load system. (disabled by default)
@@ -37,4 +43,8 @@ hlplu_4: added missing barney and alien slave.
 hlplu_4: fixed telefrag issues in the cage when you are captured. Now weapons are correctly removed.
 hlplu_4: fixed gman intro fade.
 hlplu_4: adjusted nihilant cinematic.
+
+- v2.1.1
+5/4/2025
+scripts update.
 

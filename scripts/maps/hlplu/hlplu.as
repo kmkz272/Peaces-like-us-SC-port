@@ -1,6 +1,6 @@
-#include "../kmkz/data_savestate"
-#include "../kmkz/data_loadstate"
-#include "../kmkz/data_global"
+#include "../kmkz/func_savestate"
+#include "../kmkz/func_loadstate"
+#include "../kmkz/func_global"
 #include "../kmkz/env_model_coop"
 #include "../kmkz/trigger_changesky2"
 
@@ -19,13 +19,13 @@ void LoadSettings()
 	// data_savestate settings
 	
 	SaveAllowed =			false;
-	SaveVoteAlowed = 		false;	// "false" value allows to directly save at the slot chosen|| "true" value calls a vote to chose if you all want to save in that slot or not.
+	SaveVoteAlowed = 		true;	// "false" value allows to directly save at the slot chosen|| "true" value calls a vote to chose if you all want to save in that slot or not.
 	SaveVotePercentage =	90; 	// chose a value between 0 and 100 as percentage to pass the vote.
 	SaveVoteTime =			5;
 	// data_loadstate settings
 	
 	LoadAllowed =			false;
-	LoadVoteAlowed =		false; 	// "false" value allows to directly load the map from the slot chosen|| "true"  calls a vote to chose if you all want to load map from that slot or not.
+	LoadVoteAlowed =		true; 	// "false" value allows to directly load the map from the slot chosen|| "true"  calls a vote to chose if you all want to load map from that slot or not.
 	LoadVotePercentage =	90; 	// chose a value between 0 and 100 as percentage to pass the vote.
 	LoadVoteTime =			5;
 	
@@ -36,11 +36,11 @@ void LoadSettings()
 
 void MapInit()
 {
-	RegisterDataGlobal();
+	RegisterFuncGlobal();
 	RegisterEnvModelCoop();
-	RegisterDataSavestate();
-	RegisterDataLoadstate();
-	GameSpritetext::Register();
+	RegisterFuncSavestate();
+	RegisterFuncLoadstate();
+	RegisterGameSpriteText();
 	RegisterGameSpriteTextButton();
 	g_CustomEntityFuncs.RegisterCustomEntity( "CChangeSky", "trigger_changesky2" );
 	LoadSettings();
