@@ -48,3 +48,6 @@ hlplu_4: adjusted nihilant cinematic.
 5/4/2025
 scripts update.
 
+- v2.1.2
+23/8/2025
+scripts update.
